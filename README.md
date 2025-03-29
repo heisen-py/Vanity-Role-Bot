@@ -1,8 +1,8 @@
- 🎀 Vanity-Role-Bot 
+ 🎀 **Vanity-Role-Bot**
 
 This is a Discord bot that automatically assigns and removes roles to members based on their custom status. When a member sets a specific keyword in their status (defined in the bot's configuration), the bot assigns them a role, and when they remove it, the bot removes the role.
 
-📌 Features:
+📌 **Features:**
 
 Assigns a specific role to members based on their custom activity status.
 
@@ -11,14 +11,14 @@ Removes the role if the member's status no longer matches the defined keyword.
 Sends log messages in a specific channel with embed notifications about role changes.
 
 
-📋 Requirements:
+📋 **Requirements:**
 
-Python 3.6+
+``Python 3.6+``
 
-discord.py library
+```discord.py library```
 
 
-⚙️ Setup Instructions:
+⚙️ **Setup Instructions:**
 
 1. Install Python and Dependencies:
 
@@ -30,24 +30,24 @@ pip install discord.py
 
 2. Configure the Bot:
 
-1. Create a new bot on the Discord Developer Portal.
+1. • Create a new bot on the Discord Developer Portal.
 
 
-2. Copy the bot token and paste it into the config.json file.
+2. • Copy the bot token and paste it into the config.json file.
 
 
-3. Define the role and keyword in config.json:
+3. • Define the role and keyword in config.json:
 
 
 
 
-{
+``{
   "TOKEN": "YOUR_BOT_TOKEN",
   "GUILD_ID": "YOUR_SERVER_ID",
   "SUPPORTER_ROLE_ID": "YOUR_ROLE_ID",
   "LOG_CHANNEL_ID": "YOUR_LOG_CHANNEL_ID",
   "KEYWORDS": ["custom_status1", "custom_status2", "custom_status3", "custom_status4"]
-}
+}``
 
 
 3. Run the Bot:
