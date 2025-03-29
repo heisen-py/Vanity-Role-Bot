@@ -23,7 +23,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
 async def on_ready():
-    print(f"{bot.user} is running! | Made by github.com/s7k1")
+    print(f"{bot.user} is running! | Made by github.com/heisen-py")
 
 @bot.event
 async def on_presence_update(before, after):
