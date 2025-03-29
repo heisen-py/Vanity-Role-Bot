@@ -40,6 +40,7 @@ pip install discord.py
 
 
 
+
 {
   "TOKEN": "YOUR_BOT_TOKEN",
   "GUILD_ID": "YOUR_SERVER_ID",
@@ -47,6 +48,7 @@ pip install discord.py
   "LOG_CHANNEL_ID": "YOUR_LOG_CHANNEL_ID",
   "KEYWORDS": ["custom_status1", "custom_status2", "custom_status3", "custom_status4"]
 }
+
 
 3. Run the Bot:
 
