@@ -60,4 +60,5 @@ Use the OAuth2 link to invite the bot to your server with Manage Roles and Read 
 
 Enjoy your Vanity-Role-Bot!
 
-e
+
+🔗 Need help , add me on discord [heisen.48]
